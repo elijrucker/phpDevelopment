@@ -3,6 +3,7 @@
         <title>PHP Web Development with MySQL - Chapter 8</title>
     </head>
     <body>
+        <h2>Chapter 8 exercise 1</h2>
         <?php
         // Ch8e1 - Write and run the code in Listing 8.4 using 'gettype()'
         
@@ -65,7 +66,8 @@
                 <th><?= gettype($null); ?></th>
             </tr>
         </table>
-        
+        <br/><br/>
+        <h2>Chapter 8 exercise 2</h2>
         <?php
         // Ch8e2 - Change variable values and run again, compare output for changes
         class Automobile {}
