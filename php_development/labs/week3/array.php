@@ -19,8 +19,8 @@
                 "Jane Eyre"
             );
             echo "Chapter 6 Exercise 1 output:<br/><br/>";
-            echo "Here are a couple of book titles: " .
-            "$book_titles[2], $book_titles[3]";
+            echo "Here are a couple of book titles: "
+                . "$book_titles[2], $book_titles[3]";
             echo "<br/><br/><hr>";
 
 
