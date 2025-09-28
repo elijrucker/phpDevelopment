@@ -42,7 +42,7 @@
             {
                 echo "The random number is less than 3.";
             }
-            elseif ($x <= 7)
+            else if ($x <= 7)
             {
                 echo "The random number is between 3 and 7.";
             }
@@ -63,10 +63,12 @@
             if ($x > 3 && $x <= 7)
             {
                 echo "The random number is between 3 and 7.";
-            } elseif ($x < 3)
+            } 
+            else if ($x < 3)
             {
                 echo "The random number is less than 3.";
-            } else 
+            } 
+            else 
             {
                 echo "The number is greater than 7.";
             }
