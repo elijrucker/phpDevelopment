@@ -1,0 +1,36 @@
+/*
+    PHP Web Development with MySQL
+    Project 1 'Madlibs'
+*/
+
+body 
+{
+    font-family: sans-serif;
+    line-height: 1.6;
+    padding-left: 20px;
+    padding-right: 20px;
+} 
+    
+h2 
+{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+   
+form 
+{
+    background-color: #ffae00;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+     
+.button 
+{
+    background-color: #ff00773d;
+    color: black;
+    padding: 20px 30px;
+    border: solid;
+    border-radius: 5px;        
+}
