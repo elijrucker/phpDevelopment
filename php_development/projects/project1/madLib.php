@@ -58,7 +58,7 @@
                 'localhost', 
                 'testuser', 
                 'testuser', 
-                'MadLib'
+                'Project1'
                 ) or trigger_error(
                 'Error connecting to MySQL server.', E_USER_ERROR
                 );
@@ -100,7 +100,7 @@
                 'localhost', 
                 'testuser', 
                 'testuser', 
-                'MadLib'
+                'Project1'
                 ) or trigger_error(
                 'Error connecting to MySQL server.', E_USER_ERROR
                 );
