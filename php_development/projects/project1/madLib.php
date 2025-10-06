@@ -48,10 +48,10 @@
             $verb = $_POST['verb'];
             $adverb = $_POST['adverb'];
             $adjective = $_POST['adjective'];
-            $madlib_whole = "We are going to the zoo today, I hope we see a(n)" 
+            $madlib_whole = "We are going to the zoo today, I hope we see " 
                 . " <strong>$adjective</strong> <strong>$noun</strong>. " 
                 . "They are my favorite when they are <strong>$verb" 
-                . "ing</strong> " . "<strong>$adverb</strong>.";
+                . " <strong>$adverb</strong>.";
                 
             // Write data into database
             $dbc_write_data = mysqli_connect(
