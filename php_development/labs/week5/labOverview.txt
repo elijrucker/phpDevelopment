@@ -10,4 +10,4 @@ Ch15e2
 
 Ch15e3
     - Create movie details page to show one movie's information
-    - Link title on the index page to the correct detail page
+    - Link title on the index page to the correct detail
