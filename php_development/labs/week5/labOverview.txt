@@ -1,5 +1,13 @@
 PHP Web Development with MySQL
 Week 5 Labs
 
-Chapter 15
-Exercises 1, 2, 3
+Ch15e1
+    - Create the database for movie listings
+    - Add data via Adminer/MySQL CLI
+
+Ch15e2
+    - Create the index page to show all movies
+
+Ch15e3
+    - Create movie details page to show one movie's information
+    - Link title on the index page to the correct detail page
