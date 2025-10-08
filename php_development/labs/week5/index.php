@@ -34,13 +34,12 @@
                         </thead>
                         <tbody>
                         <?php
-                            while($row = mysqli_fetch_assoc($result)):
-                        ?>
-                            <tr>
-                                <td><?= $row['title'] ?></td>
-                            </tr>
-                        <?php
-                            endwhile;
+                            while($row = mysqli_fetch_assoc($result))
+                            {
+                                echo "<tr><td>" .
+                                     "<a class='nav-link' href='moviedetails.php?id=" . $row['id'] .
+                                     "'>" . $row['title'] . "</a></td></tr>";
+                            }
                         ?>
                         </tbody>
                     </table>
