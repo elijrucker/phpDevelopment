@@ -1,0 +1,29 @@
+PHP Web Development with MySQL
+Week 6 Labs
+
+Ch16e1
+- Create an "Add Movie" page with a form that allows users to insert data to db.
+-- Ensure users submit title*, rating*, director*, running time*, genre*
+-- Put "Add Movie" button on listings page.
+
+Ch16e2
+- Add minimum of one new movie genre to form. 
+-- Confirm data is saved to db.
+-- Display the value on details page.
+
+Ch16e3
+- Add field for movie release year to form.
+-- Allow years 1900 - 2036.
+-- Confirm data saved to db.
+-- Display value on details page.
+
+
+---
+
+Ch17e1
+
+Ch17e2
+
+---
+
+ch18e1
