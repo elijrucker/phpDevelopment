@@ -45,7 +45,7 @@
                 $_POST['movie_running_time_in_minutes'],
                 $_POST['movie_release_year']
             )) {
-                require_once('dbconnection.php');
+                require_once('../week5/dbconnection.php');
 
                 $movie_title = $_POST['movie_title'];
                 $movie_rating = $_POST['movie_rating'];
