@@ -21,8 +21,12 @@ Ch16e3 (frontend complete, updated db with additional column, workflow verified)
 ---
 
 Ch17e1
+- Add a clickable trashcan icons to movie listings allowing users to delete single movies
 
 Ch17e2
+- Create 'remove a movie' page 
+-- Show movie details
+-- Show deletion confirmation
 
 ---
 
