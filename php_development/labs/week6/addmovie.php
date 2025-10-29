@@ -68,7 +68,7 @@
                 $query = "INSERT INTO movieListing (title, rating, director, "
                     . " running_time_in_minutes, genre) "
                     . " VALUES('$movie_title', '$movie_rating', '$movie_director', "
-                    . "         '$movie_runtime', '$movie_genre_text')";
+                    . "         '$movie_runtime', '$movie_genre_text', '$movie_release_year')";
 
                 mysqli_query($dbc, $query)
                     or trigger_error(

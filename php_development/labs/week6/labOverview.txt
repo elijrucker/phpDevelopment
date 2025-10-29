@@ -1,17 +1,17 @@
 PHP Web Development with MySQL
 Week 6 Labs
 
-Ch16e1 (frontend completed, verify in db)
+Ch16e1 (frontend completed, verified in db)
 - Create an "Add Movie" page with a form that allows users to insert data to db.
 -- Ensure users submit title*, rating*, director*, running time*, genre*
 -- Put "Add Movie" button on listings page.
 
-Ch16e2 (frontend completed, verify in db)
+Ch16e2 (frontend completed, verified in db)
 - Add minimum of one new movie genre to form. 
 -- Confirm data is saved to db.
 -- Display the value on details page.
 
-Ch16e3 (frontend completed, update db with additional year column)
+Ch16e3 (frontend - update index.php, updated db with additional column, verify workflow)
 - Add field for movie release year to form.
 -- Allow years 1900 - 2036.
 -- Confirm data saved to db.
