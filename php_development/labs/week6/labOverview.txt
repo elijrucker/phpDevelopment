@@ -11,7 +11,7 @@ Ch16e2 (frontend completed, verified in db)
 -- Confirm data is saved to db.
 -- Display the value on details page.
 
-Ch16e3 (frontend - update index.php, updated db with additional column, verify workflow)
+Ch16e3 (frontend complete, updated db with additional column, workflow verified)
 - Add field for movie release year to form.
 -- Allow years 1900 - 2036.
 -- Confirm data saved to db.

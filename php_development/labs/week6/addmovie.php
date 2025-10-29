@@ -66,7 +66,7 @@
                     );
 
                 $query = "INSERT INTO movieListing (title, rating, director, "
-                    . " running_time_in_minutes, genre) "
+                    . " running_time_in_minutes, genre, movie_release_year) "
                     . " VALUES('$movie_title', '$movie_rating', '$movie_director', "
                     . "         '$movie_runtime', '$movie_genre_text', '$movie_release_year')";
 
@@ -182,7 +182,7 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-sm-3 col-form-label-lg">Genre</label>
+                        <label for="movie_genre_checkbox_action" class="col-sm-3 col-form-label-lg">Genre</label>
                         <div class="col-sm-8">
                             <?php
                             foreach ($genres as $genre) {
