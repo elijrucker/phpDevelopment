@@ -42,7 +42,8 @@
                 $_POST['movie_title'],
                 $_POST['movie_rating'],
                 $_POST['movie_director'],
-                $_POST['movie_running_time_in_minutes']
+                $_POST['movie_running_time_in_minutes'],
+                $_POST['movie_release_year']
             )) {
                 require_once('dbconnection.php');
 
@@ -51,6 +52,7 @@
                 $movie_director = $_POST['movie_director'];
                 $movie_runtime = $_POST['movie_running_time_in_minutes'];
                 $checked_movie_genres = $_POST['movie_genre_checkbox'];
+                $movie_release_year = $_POST['movie_release_year'];
 
                 $movie_genre_text = "";
                 if (isset($checked_movie_genres)) {
@@ -92,6 +94,10 @@
                         <tr>
                             <th scope="row">Running Time (minutes)</th>
                             <td><?= $movie_runtime ?></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Release Year</th>
+                            <td><?= $movie_release_year ?></td>
                         </tr>
                         <tr>
                             <th scope="row">Genre</th>
@@ -157,6 +163,21 @@
                                 placeholder="Running Time (in minutes)" required>
                             <div class="invalid-feedback">
                                 Please provide a valid running time in minutes.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="movie_release_year"
+                            class="col-sm-3 col-form-label-lg">Movie Release Year</label>
+                        <div class="col-sm-8">
+                            <input type="number" class="form-control"
+                                id="movie_release_year"
+                                name="movie_release_year"
+                                min="1900"
+                                max="2036"
+                                placeholder="Release Year" required>
+                            <div class="invalid-feedback">
+                                Please provide a valid release year.
                             </div>
                         </div>
                     </div>
