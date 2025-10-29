@@ -14,7 +14,7 @@
     <div class="card">
         <div class="card-body">
             <h1>Movies I Like</h1>
-            <p>If you have a movie you would like to include, feel free to <a href='addmovie.php'> add one</a></p>
+            <p>If you have a movie you would like to include, feel free to <a href='../week5/addmovie.php'> add one</a></p>
             <?php
             require_once('dbconnection.php');
 
