@@ -15,7 +15,7 @@
         <div class="card-body">
             <h1>Add a Movie</h1>
             <nav>
-                <a class="nav-link" href="index.php">Movies I Like</a>
+                <a class="nav-link" href="../week5/index.php">Movies I Like</a>
             </nav>
             <hr>
             <?php
