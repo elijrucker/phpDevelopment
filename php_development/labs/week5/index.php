@@ -7,7 +7,9 @@
 
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title>Movies I Like - Week 5 Labs</title>
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Movies I Like</title>
 </head>
 
 <body>
@@ -32,14 +34,16 @@
                     <thead>
                         <tr>
                             <th scope="col">Movie Title</th>
+                            <th scope="col"></th>
                         </tr>
                     </thead>
                     <tbody>
                         <?php
                         while ($row = mysqli_fetch_assoc($result)) {
-                            echo "<tr><td>" .
-                                "<a class='nav-link' href='moviedetails.php?id=" . $row['id'] .
-                                "'>" . $row['title'] . "</a></td></tr>";
+                            echo "<tr><td><a class='nav-link' href='moviedetails.php?id="
+                                . $row['id'] . "'>" . $row['title'] . "</a></td>"
+                                . "<td><a class='nav-link' href='removemovie.php?id_to_delete="
+                                . $row['id'] . "'><i class='fas fa-trash-alt'></i</a></td></tr>";
                         }
                         ?>
                     </tbody>
